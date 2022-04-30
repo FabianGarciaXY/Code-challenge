@@ -12,5 +12,11 @@ describe("Suite de tests para la clase VisualpartnerService", () => {
         expect(visualpartners.length).toBe(2);
     });
 
+    it("2) Validando el metodo static getStudentsWithCertification", () => {
+        const visualpartners = VisualpartnerService.getStudentsWithCertification(visualpartner_testdata);
+        expect(visualpartners).not.toBeUndefined();
+        expect(visualpartners.length).toBe(3);
+    })
+
     
 });

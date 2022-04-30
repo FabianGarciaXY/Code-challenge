@@ -21,5 +21,38 @@
       ],
       "previousCourses": 2,
       "haveCertification": true
+    },
+    {
+      "id": "3",
+      "name": "partner3",
+      "email": "partner3@visualpartnership.xyz",
+      "credits": 622,
+      "enrollments": [
+        "Visual Thinking Basico"
+      ],
+      "previousCourses": 2,
+      "haveCertification": true
+    },
+    {
+      "id": "4",
+      "name": "partner4",
+      "email": "partner4@visualpartnership.xyz",
+      "credits": 622,
+      "enrollments": [
+        "Visual Thinking Basico"
+      ],
+      "previousCourses": 2,
+      "haveCertification": false
+    },
+    {
+      "id": "5",
+      "name": "partner5",
+      "email": "partner5@visualpartnership.xyz",
+      "credits": 622,
+      "enrollments": [
+        "Visual Thinking Basico"
+      ],
+      "previousCourses": 2,
+      "haveCertification": true
     }
 ]
