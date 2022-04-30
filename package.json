@@ -1,0 +1,20 @@
+{
+  "name": "code-challenge-visual-thinking-api",
+  "version": "1.0.0",
+  "description": "Code challenge para desarrollo de API basica desde 0 como parte del programa LaunchX",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "API",
+    "JavaScript",
+    "Node",
+    "Express",
+    "Jest",
+    "TDD",
+    "POO"
+  ],
+  "author": "FabianGarciaXY",
+  "license": "ISC"
+}
