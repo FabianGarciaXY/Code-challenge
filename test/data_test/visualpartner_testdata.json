@@ -1,0 +1,25 @@
+[
+    {
+      "id": "1",
+      "name": "partner1",
+      "email": "partner1@visualpartnership.xyz",
+      "credits": 300,
+      "enrollments": [
+        "Visual Thinking Basico",
+        "Visual Thinking Intermedio"
+      ],
+      "previousCourses": 3,
+      "haveCertification": false
+    },
+    {
+      "id": "2",
+      "name": "partner2",
+      "email": "partner2@visualpartnership.xyz",
+      "credits": 622,
+      "enrollments": [
+        "Visual Thinking Basico"
+      ],
+      "previousCourses": 2,
+      "haveCertification": true
+    }
+]
