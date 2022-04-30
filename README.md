@@ -3,10 +3,17 @@
 *Proyecto como parte modulo de desarrollo backend con Node y Express.*
 <br>
 
+
 ## Index
+
 * [Requerimientos](#1)
 * [Diseño del proyecto](#diseño-del-proyecto)
+* [Server API]()
+* [Demo]()
+* [Dependencias]()
+---
 
+<img id="test" src="./lib/assets/cover.png">
 
 ---
  ### <a id="1">Se solicitó desarrollar una API que cumpla con los tres siguientes requerimientos basados en datos de **Visual Partner-Ship*: </a>
