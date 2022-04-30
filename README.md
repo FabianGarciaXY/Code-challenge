@@ -16,7 +16,7 @@
 <img id="test" src="./lib/assets/cover.png">
 
 ---
- ### <a id="1">Se solicitó desarrollar una API que cumpla con los tres siguientes requerimientos basados en datos de **Visual Partner-Ship*: </a>
+ ### <a id="1">Se solicitó desarrollar una API que cumpla con los tres siguientes requerimientos basados en datos de *Visual Partner-Ship*: </a>
 
 * Habilitar un endpoint para consultar todos los estudiantes con todos sus campos.
 * Habilitar un endpoint para consultar los emails de todos los estudiantes que tengan certificación haveCertification.
