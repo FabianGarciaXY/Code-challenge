@@ -4,10 +4,6 @@
 <br>
 
 ## Index
-
-Here is an [example label].
-
-
 * [Requerimientos](#1)
 * [Diseño del proyecto](#diseño-del-proyecto)
 
