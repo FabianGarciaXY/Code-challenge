@@ -19,5 +19,5 @@ describe("Set de tests para el controllador VisualpartnerController", () => {
     test("3) Valindando el metodo getStudentsByCredits", () => {
         const visualparnerData = VisualpartnerController.getStudentsByCredits(dataTest);
         expect(visualparnerData).not.toBeUndefined();
-    })
+    });
 });

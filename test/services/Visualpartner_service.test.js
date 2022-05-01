@@ -21,7 +21,7 @@ describe("Suite de tests para la clase VisualpartnerService", () => {
     it("3) Validando el metodo getStudentsByCredits de Services", () => {
         const visualpartners = VisualpartnerService.getStudentsByCredits(visualpartner_testdata);
         expect(visualpartners).not.toBeUndefined();
-    })
+    });
 
     
 });
