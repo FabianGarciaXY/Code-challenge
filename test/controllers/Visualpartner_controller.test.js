@@ -14,5 +14,5 @@ describe("Set de tests para el controllador VisualpartnerController", () => {
     test("2) Validando que el metodo getStudentsWithCertification del cotrolador retorne so la lista de estudiantes que tengan certificación", () => {
         const visualparnerData = VisualpartnerController.getStudentsWithCertification(dataTest);
         expect(visualparnerData).not.toBeUndefined();
-    })
+    });
 });
