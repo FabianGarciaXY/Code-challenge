@@ -1,4 +1,8 @@
 const VisualpartnerController = require("../../lib/controllers/Visualpartner_controller");
+const fs = require("fs");
+const rawdata = fs.readFileSync("./test/data_test/visualpartner_testdata.json");
+const dataTest = JSON.parse(rawdata);
+
 
 describe("Set de tests para el controllador VisualpartnerController", () => {
 
@@ -8,7 +12,7 @@ describe("Set de tests para el controllador VisualpartnerController", () => {
     });
 
     test("2) Validando que el metodo getStudentsWithCertification del cotrolador retorne so la lista de estudiantes que tengan certificación", () => {
-        const visualparnerData = VisualpartnerController.getStudentsWithCertification();
+        const visualparnerData = VisualpartnerController.getStudentsWithCertification(dataTest);
         expect(visualparnerData).not.toBeUndefined();
     })
 });
