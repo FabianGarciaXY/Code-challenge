@@ -14,8 +14,6 @@ describe("Suite de tests para la clase VisualpartnerService", () => {
 
     it("2) Validando el metodo static getStudentsWithCertification", () => {
         const visualpartners = VisualpartnerService.getStudentsWithCertification(visualpartner_testdata);
-        console.log(visualpartners);
-
         expect(visualpartners).not.toBeUndefined();
         expect(visualpartners.length).toBe(3);
     });
