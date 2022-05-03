@@ -86,27 +86,7 @@ app.get("/v1/students/credits", (req, res) => {
 });
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Demo
 
 
 
