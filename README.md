@@ -32,6 +32,8 @@
 
 ### Diseño del proyecto:
 
+El funcionamiento del proyecto se baso en el siguiente programa, teniendo así una estructura limpia en donde en el servidor solo se definen los endpoints y toda la logica se desarrolla en los services y el controlador.
+
 ```mermaid
 graph TD
     
@@ -47,6 +49,20 @@ graph TD
  
 ```
 
+Para la Estructura del proyecto se planeó como sigue:
+```
+.
+├── lib
+│   ├── assets
+│   ├── controllers
+│   ├── services
+│   └── utils
+└── test
+    ├── controllers
+    ├── data_test
+    ├── services
+    └── utils
+```
 
 
 
