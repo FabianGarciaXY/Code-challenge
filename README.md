@@ -9,8 +9,8 @@
 * [Requerimientos](#1)
 * [Diseño del proyecto](#diseño-del-proyecto)
 * [Server API](#server-api)
-* [Demo]()
-* [Dependencias]()
+* [Demo](#demo)
+* [Dependencias](#dependencias)
 ---
 
 <img id="test" src="./lib/assets/cover.png">
@@ -29,7 +29,7 @@
 |Consultar todos los estudiantes que tengan creditos mayor a 500|`/v1/students/:credits`|`localhost:3000/v1/students/credits`|
 
 
-### Diseño del proyecto:
+### Diseño del proyecto: 🎨
 
 El funcionamiento del proyecto se baso en el siguiente programa, teniendo así una estructura limpia en donde en el servidor solo se definen los endpoints y toda la logica se desarrolla en los services y el controlador.
 
@@ -63,7 +63,7 @@ Para la Estructura del proyecto se planeó como sigue:
     └── utils
 ```
 
-## Server API
+## Server API 🖥️
 Se defidienron los siguientes endoints:
 ```JS
 app.get("/", (req, res) => {
@@ -86,25 +86,16 @@ app.get("/v1/students/credits", (req, res) => {
 });
 ```
 
-## Demo
+## Demo 😎
 
+![](./lib/assets/1.gif)
+![](./lib/assets/2.gif)
+![](./lib/assets/3.gif)
 
+## Dependencias 🧰
+* Express
+* Node
+* Jest
+* Eslint
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+:p
