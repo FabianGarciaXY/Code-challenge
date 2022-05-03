@@ -18,16 +18,15 @@
 ---
  ## <a id="1">Se solicitó desarrollar una API que cumpla con los tres siguientes requerimientos basados en datos de *Visual Partner-Ship*: </a>
 
-* Consultar todos los estudiantes con todos sus campos.
-* Consultar los emails de todos los estudiantes que tengan certificación haveCertification.
-* Consultar todos los estudiantes que tengan creditos mayor a 500.
-
+* Habilitar un endpoint para consultar todos los estudiantes con todos sus campos.
+* Habilitar un endpoint para consultar los emails de todos los estudiantes que tengan certificación haveCertification.
+* Habilitar un endpoint para consultar todos los estudiantes que tengan credits mayor a 500.
 
 | Requerimiento     | Endpoint    | Ejemplo de Request |
 |-------------------|-------------|---------|
-|Endpoint para consultar todos los estudiantes <br> con todos sus campos| `/v1/students/`|`localhost:3000/v1/students`|
-|Endpoint para consultar los emails de todos los <br> estudiantes que tengan certificación haveCertification| `/v1/students/haveCertification/`|`localhost:3000/v1/students/haveCertification`|
-|Endpoint para consultar todos los estudiantes <br> que tengan creditos mayor a 500|`/v1/students/:credits`|`localhost:3000/v1/students/credits`|
+|Consultar todos los estudiantes con todos sus campos| `/v1/students/`|`localhost:3000/v1/students`|
+|Consultar los emails de todos los estudiantes que tengan certificación haveCertification| `/v1/students/haveCertification/`|`localhost:3000/v1/students/haveCertification`|
+|Consultar todos los estudiantes que tengan creditos mayor a 500|`/v1/students/:credits`|`localhost:3000/v1/students/credits`|
 
 
 ### Diseño del proyecto:
